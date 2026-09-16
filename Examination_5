@@ -6,6 +6,11 @@
 # ==========================================
 
 # เขียนโค้ดต่อจากนี้
-quantity = int(input())
+uantity = int(input("จำนวน"))
+print(quantity * 20)
+total = (quantity * 20)
+if quantity >5:
+    print(total - 10)
+
 
 
